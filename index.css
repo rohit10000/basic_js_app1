@@ -1,0 +1,40 @@
+div {
+    flex: auto;
+}
+#your_image{
+    height: 300px;
+}
+
+#firework_image {
+    margin-left: 50px;
+    height: 300px;
+}
+
+p {
+    color: green;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  .container .btn {
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: blue;
+    color: white;
+  }
